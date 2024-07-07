@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dz-20-1"
+version = "0.1.0"
+description = ""
+authors = ["Pavel Novikov <pavlik.novik@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "dz_20"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
